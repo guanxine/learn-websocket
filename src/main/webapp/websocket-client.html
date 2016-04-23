@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Movie Theater Monitoring</title>
+    <style>
+        .roomDetails {
+            font-size: 64px;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+            color: #CCCCCC;
+            background: #333333;
+        }
+    </style>
+    <script type="text/javascript" src="resources/js/websocket.js"></script>
+    <script type="text/javascript" src="resources/js/moviemonitor.js"></script>
+</head>
+<body>
+<h1>Cinema Monitoring</h1>
+<div id="output"></div>
+<br/>
+<table>
+    <tr>
+        <td>
+            <img src="resources/images/cinemaAudience.png"/>
+            <br/>
+            <table>
+                <tr>
+                    <td>ROOM 1</td>
+                    <td id="room1" class="roomDetails">0</td>
+                    <td></td>
+                    <td>ROOM 2</td>
+                    <td id="room2" class="roomDetails">0</td>
+                </tr>
+                <tr>
+                    <td>ROOM 3</td>
+                    <td id="room3" class="roomDetails">0</td>
+                    <td></td>
+                    <td>ROOM 4</td>
+                    <td id="room4" class="roomDetails">0</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
