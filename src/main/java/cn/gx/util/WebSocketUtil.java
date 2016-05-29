@@ -31,4 +31,8 @@ public class WebSocketUtil {
         // push 消息
         client.sendMessage(message);
     }
+
+    public static void main(String[] args) {
+        WebSocketUtil.sendMessage2WebSocket("cinemaSocket/1","shaonian");
+    }
 }
